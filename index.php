@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>@arizaakmal</title>
+    <title>@rizaakmal</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -26,12 +26,15 @@
     <?php
     // Navbar
     include_once 'navbar.php';
+    // About
+    include_once 'about.php';
+    // Skills
+    include_once 'skills.php';
     // Services
     include_once 'services.php';
     // Portfolio
     include_once 'portfolio.php';
-    // About
-    include_once 'about.php';
+
     //Team
     // include_once 'team.php';
     // Contact

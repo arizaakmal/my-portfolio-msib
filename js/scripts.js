@@ -55,4 +55,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   typewriter.typeString("Web Developer").pauseFor(2500).deleteAll().typeString("College Student").pauseFor(2500).start();
+
+  //Tooltip
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
 });
