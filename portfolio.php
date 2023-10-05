@@ -1,4 +1,4 @@
-<section class="page-section" id="portfolio">
+<section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
@@ -12,11 +12,11 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/1.png" alt="..." />
+                        <img class="img-fluid img-portfolio" src="assets/img/portfolio/1.png" alt="..." />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Threads</div>
-                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        <div class="portfolio-caption-heading"><a href="https://peserta36-fwd.sib5.nurulfikri.com/landing-page/" target="_blank" class="text-dark text-decoration-none">Landing Page</a></div>
+                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
                     </div>
                 </div>
             </div>
@@ -27,11 +27,11 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Explore</div>
-                        <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        <div class="portfolio-caption-heading"><a href="https://peserta36-fwd.sib5.nurulfikri.com/tugas3-desain-web/" target="_blank" class="text-dark text-decoration-none">Task 3 Web Design</a></div>
+                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
                     </div>
                 </div>
             </div>
@@ -42,11 +42,11 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                        <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Finish</div>
-                        <div class="portfolio-caption-subheading text-muted">Identity</div>
+                        <div class="portfolio-caption-heading"><a href="https://arizaakmal.github.io/tugas4-desain-web/" target="_blank" class="text-dark text-decoration-none">Task 4 Web Design</a></div>
+                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
                     </div>
                 </div>
             </div>
@@ -109,24 +109,18 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project details-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase mb-5">Landing Page</h2>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.png" alt="..." />
                             <ul class="list-inline">
                                 <li>
-                                    <strong>Client:</strong>
-                                    Threads
-                                </li>
-                                <li>
                                     <strong>Category:</strong>
-                                    Illustration
+                                    Website Design
                                 </li>
                             </ul>
-                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                <i class="fas fa-xmark me-1"></i>
-                                Close Project
-                            </button>
+                            <a href="https://peserta36-fwd.sib5.nurulfikri.com/landing-page/" target="_blank" class="btn btn-primary btn-xl text-uppercase">
+                                <i class="fas fa-arrow-right me-1"></i>
+                                Go to Project
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -144,24 +138,18 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project details-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase mb-5">Tugas 3 Desain Web</h2>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.png" alt="..." />
                             <ul class="list-inline">
                                 <li>
-                                    <strong>Client:</strong>
-                                    Explore
-                                </li>
-                                <li>
                                     <strong>Category:</strong>
-                                    Graphic Design
+                                    Website Design
                                 </li>
                             </ul>
-                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                <i class="fas fa-xmark me-1"></i>
-                                Close Project
-                            </button>
+                            <a href="https://peserta36-fwd.sib5.nurulfikri.com/tugas3-desain-web/" target="_blank" class="btn btn-primary btn-xl text-uppercase">
+                                <i class="fas fa-arrow-right me-1"></i>
+                                Go to Project
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -179,24 +167,18 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project details-->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase mb-5">Tugas 4 Desain Web</h2>
+                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.png" alt="..." />
                             <ul class="list-inline">
                                 <li>
-                                    <strong>Client:</strong>
-                                    Finish
-                                </li>
-                                <li>
                                     <strong>Category:</strong>
-                                    Identity
+                                    Website Design
                                 </li>
                             </ul>
-                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                <i class="fas fa-xmark me-1"></i>
-                                Close Project
-                            </button>
+                            <a href="https://arizaakmal.github.io/tugas4-desain-web/" target="_blank" class="btn btn-primary btn-xl text-uppercase">
+                                <i class="fas fa-arrow-right me-1"></i>
+                                Go to Project
+                            </a>
                         </div>
                     </div>
                 </div>

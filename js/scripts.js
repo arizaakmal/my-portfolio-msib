@@ -14,8 +14,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
     if (!navbarCollapsible) {
       return;
     }
+
     if (window.scrollY === 0) {
-      navbarCollapsible.classList.remove("navbar-shrink");
+      //  navbarCollapsible.classList.remove("navbar-shrink");
     } else {
       navbarCollapsible.classList.add("navbar-shrink");
     }
@@ -60,5 +61,22 @@ window.addEventListener("DOMContentLoaded", (event) => {
   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+
+  //Scroll to top
+  var scrollY = window.scrollY;
+  var scrollButton = document.querySelector(".scroll-to-top");
+  if (scrollY === 0) {
+    scrollButton.style.display = "none";
+  } else {
+    scrollButton.style.display = "block";
+  }
+  window.addEventListener("scroll", () => {
+    scrollY = window.scrollY;
+    if (scrollY === 0) {
+      scrollButton.style.display = "none";
+    } else {
+      scrollButton.style.display = "block";
+    }
   });
 });

@@ -11523,6 +11523,26 @@ section#contact form#contactForm :-ms-input-placeholder {
   opacity: 1;
 }
 
-.link-dark:hover {
+.link-dark:hover,
+.portfolio-caption-heading a:hover {
   text-decoration: underline;
+}
+
+.img-portfolio {
+  max-width: 100%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logo-services {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  &:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
