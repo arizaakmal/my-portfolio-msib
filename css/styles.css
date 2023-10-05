@@ -11528,10 +11528,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-decoration: underline;
 }
 
-.img-portfolio {
-  max-width: 100%;
-}
-
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
